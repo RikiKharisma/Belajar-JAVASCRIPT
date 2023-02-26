@@ -1,0 +1,3 @@
+alert digunakan untuk memberi peringatan berupa popup text di browser
+prompt digunakan untuk meminta input sring dari penggunaan browser dalam bentuk popup input
+confrim digunakan untuk meminta input bolean dari pengguna browser dalam bentuk poput input pilihan

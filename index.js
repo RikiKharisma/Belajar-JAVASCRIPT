@@ -37,10 +37,15 @@ console.table(`Nama : ${person.umur}`)*/
 
 //percabangan if else
 
-const data =90;
+/*const data =90;
 
 if(data ==7){
     console.log("berhasil")
 }else{
     console.log("eror")
-}
+}*/
+
+// alert prompt confrim
+
+const name = prompt("masukan nama :")
+console.log(`hello ${name}`)
