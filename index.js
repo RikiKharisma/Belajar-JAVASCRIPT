@@ -45,7 +45,23 @@ if(data ==7){
     console.log("eror")
 }*/
 
+
+
 // alert prompt confrim
 
-const name = prompt("masukan nama :")
-console.log(`hello ${name}`)
+//const name = prompt("masukan nama :")
+//console.log(`hello ${name}`)
+
+//undefined
+//null
+
+
+//switch
+
+
+const data = undefined;
+if(data === 1){
+    console.log("undefined")
+}else {
+    console.log("error")
+}
