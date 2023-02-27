@@ -58,10 +58,3 @@ if(data ==7){
 
 //switch
 
-
-const data = undefined;
-if(data === 1){
-    console.log("undefined")
-}else {
-    console.log("error")
-}
