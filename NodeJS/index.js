@@ -1,5 +1,6 @@
 
-// NodeJS Module System
-/*const coba = require("./coba")
+// // NodeJS Module System
+// const coba = require("./coba") // localmodul
 
-console.log(coba.data("Riki"),coba.nama)*/
+// console.log(coba.data("subroto"), coba.nama, coba.names, coba.mahasiswa.cetakMhs())
+
