@@ -36,3 +36,33 @@ const fs = require("fs")
 //     console.log(data)
 // })
 
+// Readline
+
+const readline = require("readline")
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
+
+
+rl.question("maukan nama anda : ", (nama) =>{
+    rl.question("masukan nomer hp anda :",(noHape)=>{
+        const contac= {
+            nama:nama,
+            noHape:noHape
+        }
+
+        // question dan memasukan ke dalam folder
+        const file = fs.readFileSync("data/contac.json", 'utf-8')
+        const contact = JSON.parse(file)
+    
+        contact.push(contac)
+        fs.writeFileSync("data/contac.json",  JSON.stringify(contact))
+
+        console.log("Terimakasih sudah memasukan data")
+
+        rl.close()
+    })
+    
+
+})
